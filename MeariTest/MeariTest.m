@@ -7,7 +7,7 @@
 //
 
 #import "MeariTest.h"
-
+#import <MeariKit/MeariKit.h>
 @implementation MeariTest
 
 - (void)testString {
