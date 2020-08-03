@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8C6756BE24D7E02900145CB4 /* MeariTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6756BC24D7E02900145CB4 /* MeariTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C6756C524D7E04400145CB4 /* MeariTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6756C424D7E04400145CB4 /* MeariTest.m */; };
+		8C6756C824D8339D00145CB4 /* MeariKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6756C724D8339D00145CB4 /* MeariKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		8C6756BC24D7E02900145CB4 /* MeariTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeariTest.h; sourceTree = "<group>"; };
 		8C6756BD24D7E02900145CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C6756C424D7E04400145CB4 /* MeariTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeariTest.m; sourceTree = "<group>"; };
+		8C6756C724D8339D00145CB4 /* MeariKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MeariKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,6 +25,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C6756C824D8339D00145CB4 /* MeariKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +53,7 @@
 			children = (
 				8C6756BC24D7E02900145CB4 /* MeariTest.h */,
 				8C6756C424D7E04400145CB4 /* MeariTest.m */,
+				8C6756C724D8339D00145CB4 /* MeariKit.framework */,
 				8C6756BD24D7E02900145CB4 /* Info.plist */,
 			);
 			path = MeariTest;
@@ -265,6 +269,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MeariTest",
+				);
 				INFOPLIST_FILE = MeariTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -288,6 +297,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MeariTest",
+				);
 				INFOPLIST_FILE = MeariTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
