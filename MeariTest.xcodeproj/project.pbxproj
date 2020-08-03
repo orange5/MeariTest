@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		8C6756BE24D7E02900145CB4 /* MeariTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6756BC24D7E02900145CB4 /* MeariTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C6756C524D7E04400145CB4 /* MeariTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6756C424D7E04400145CB4 /* MeariTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8C6756B924D7E02900145CB4 /* MeariTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MeariTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C6756BC24D7E02900145CB4 /* MeariTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeariTest.h; sourceTree = "<group>"; };
 		8C6756BD24D7E02900145CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C6756C424D7E04400145CB4 /* MeariTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeariTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				8C6756BC24D7E02900145CB4 /* MeariTest.h */,
+				8C6756C424D7E04400145CB4 /* MeariTest.m */,
 				8C6756BD24D7E02900145CB4 /* Info.plist */,
 			);
 			path = MeariTest;
@@ -131,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C6756C524D7E04400145CB4 /* MeariTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,4 +10,7 @@
 
 @implementation MeariTest
 
+- (void)testString {
+    NSLog(@"test meari string");
+}
 @end
