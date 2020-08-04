@@ -9,8 +9,23 @@
 /* Begin PBXBuildFile section */
 		8C6756BE24D7E02900145CB4 /* MeariTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6756BC24D7E02900145CB4 /* MeariTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C6756C524D7E04400145CB4 /* MeariTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6756C424D7E04400145CB4 /* MeariTest.m */; };
-		8C6756C824D8339D00145CB4 /* MeariKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6756C724D8339D00145CB4 /* MeariKit.framework */; };
+		8C6756C924D8F36600145CB4 /* MeariKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6756C724D8339D00145CB4 /* MeariKit.framework */; };
+		8C6756CA24D8F36600145CB4 /* MeariKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6756C724D8339D00145CB4 /* MeariKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8C6756CB24D8F36600145CB4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8C6756CA24D8F36600145CB4 /* MeariKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8C6756B924D7E02900145CB4 /* MeariTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MeariTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C6756C824D8339D00145CB4 /* MeariKit.framework in Frameworks */,
+				8C6756C924D8F36600145CB4 /* MeariKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,7 @@
 				8C6756B524D7E02900145CB4 /* Sources */,
 				8C6756B624D7E02900145CB4 /* Frameworks */,
 				8C6756B724D7E02900145CB4 /* Resources */,
+				8C6756CB24D8F36600145CB4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
